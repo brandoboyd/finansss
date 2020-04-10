@@ -26,6 +26,8 @@ now = df2['Adj Close'].values
 #Determine the object type for this bracketed response
 print(type(now))
 print(now[0])
+
+#Access the integer in the numpy array
 todaynum = now[0]
 
 if todaynum >20:
